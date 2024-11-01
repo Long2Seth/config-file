@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:pools://localhost:2345/postgres_db
+    username: ps168
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
