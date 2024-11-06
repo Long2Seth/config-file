@@ -9,4 +9,4 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-  polrt: 4444
+    port: 4444
